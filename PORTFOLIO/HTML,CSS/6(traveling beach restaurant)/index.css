@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red !important; */
+}
+
+body {
+    background-image: url('image/background Image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    padding: 30px 45px;
+}
+
+nav .logo img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    padding-left: 70px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #323232;
+    font-weight: 600;
+    font-family: "Poppins";
+    transition: all 0.5s ease-in-out;
+}
+nav ul li a:hover{
+    opacity: .5;
+}
+
+nav .links {
+    display: flex;
+    margin-left: auto;
+    gap: 2rem;
+}
+
+nav .links .login {
+    text-decoration: none;
+    font-size: 30px;
+    color: #323232;
+    font-weight: 600;
+    font-family: "Poppins";
+    transition: all 0.5s ease-in-out;
+}
+
+nav .links .icon {
+    font-size: 30px;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+nav .links a:hover{
+    opacity: .5;
+}
+main .title {
+    padding: 35px 40px;
+}
+
+main .title h1 {
+    font-size: 95px;
+    color: #323232;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+main .title h4 {
+    font-size: 37px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+main .content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+main .content .links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .content .links a {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: #323232;
+    font-weight: 600;
+    font-family: "Poppins";
+    border: 1px solid;
+    background-color: #d6ebef;
+    padding: 10px 70px;
+    transition: all 0.5s ease-in-out;
+}
+
+main .content .links a:hover{
+    background-color: black;
+    color: #d6ebef;;
+}
+
+main .content .links a div {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+main .content .links a .div2 {
+    margin-left: 140px;
+}
+
+main .content .text {
+    padding:15px  35px ;
+    height: 305px;
+    margin-top: 100px;
+    background-color: #d5e3f0;
+}
+
+main .content .text h1 {
+    font-size: 50px;
+    color: #323232;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+main .content .text h4 {
+    max-width: 550px;
+    font-size: 20px;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+main .content .text a{
+    text-decoration: none;
+    color: #323232;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-top: 20px;
+   transition: all 0.5s ease-in-out;
+}
+main .content .text a:hover{
+    opacity: .5;
+    font-size: large;
+}

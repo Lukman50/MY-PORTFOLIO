@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Input with Placeholder Format</title>
+    <style>
+        /* Apply a CSS rule to the container */
+        .input-container {
+            position: relative;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        /* Apply a CSS rule to the label */
+        .input-container label {
+            position: absolute;
+            top: -18px;
+            left: 8px;
+            background-color: white;
+            padding: 0 4px;
+        }
+
+        /* Apply a CSS rule to the input */
+        .input-container input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-top: none;
+            font-size: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <label for="time-input">Time</label>
+        <input
+            type="time"
+            id="time-input"
+            placeholder="HH:MM"
+        >
+    </div>
+</body>
+</html>

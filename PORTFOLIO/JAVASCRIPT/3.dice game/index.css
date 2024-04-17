@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.container .dice img{
+    width: 200px;
+}
+.container .dice p{
+    font-size: 20px;
+    text-transform: uppercase;
+}

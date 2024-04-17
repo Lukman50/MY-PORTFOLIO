@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@100;200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Responsive web design</title>
+</head>
+
+<body>
+    <!--this is the header section-->
+    <header>
+        <div class="header">
+            <h1>og <span>gadgets.</span></h1>
+            <div class="wrapper">
+
+                <div class="select-search-bar">
+                    <select name="gadgets">
+                        <option value="All Category" selected>All Category</option>
+                        <option value="Phones">phones</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Drones">Drones</option>
+                    </select>
+                    <div class="search-container">
+                        <input type="text" placeholder="Search for product...">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-bars"></i>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-shopping-bag"></i>
+                </div>
+
+            </div>
+        </div>
+        <ul>
+
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Element</a></li>
+        </ul>
+    </header>
+    <!--this is the hero section-->
+    <div class="hero-section">
+        <div class="text-container">
+            <h2>Browse Through Our <span> Products</span></h2>
+            <p class="desktop-only">Stylish Gold Wireless Headset Ultra Plus X-20</p>
+            <p class="desktop-only subtext">Ear With A Good Quality</p>
+            <a href="#" class="desktop-only shop-button">Shop</a>
+        </div>
+        <div class="image-container mobile-only">
+            <img src="images/headset 1.png" alt="Headset Image">
+        </div>
+        <div class="image-container desktop-only">
+            <img src="images/headset 2.png" alt="Headset Image">
+        </div>
+        <div class="text-container">
+            <p class="mobile-only">Stylish Gold Wireless Headset Ultra Plus X-20</p>
+            <p class="mobile-only subtext subtext-mobile">Ear With A Good Quality</p><br>
+            <a href="#" class="mobile-only shop-button">Shop</a>
+        </div>
+    </div>
+    <!--this is the main section-->
+    <main>
+        <div class="main-wrapper">
+            <!--this is the product gallery-->
+            <div class="product-gallery">
+                <div class="product-box">
+                    <div class="product-info">
+                        <h3>Mobiles & Tablets</h3>
+                        <a href="#" class="button">Shop Now</a>
+                    </div>
+                    <img src="images/phone.png" alt="Product Image">
+                </div>
+                <div class="product-box second-box">
+                    <div class="product-info">
+                        <h3>Gadgets & Accessories</h3>
+                        <a href="#" class="button">Shop Now</a>
+                    </div>
+                    <img src="images/camera.png" alt="Product Image">
+                </div>
+
+                <div class="product-box third-box">
+                    <div class="product-info">
+                        <h3>Computers & Laptops</h3>
+                        <a href="#" class="button">Shop Now</a>
+                    </div>
+                    <img src="images/computer.png" alt="Product Image">
+                </div>
+            </div>
+            <!--this is the 1st child of the product-->
+            <div class="product">
+                <div class="title">
+                    <h3>New Arrival</h3>
+                    <a href="#">View All</a>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper-detail">
+                        <img src="images/smart watch.png" alt="drone image">
+                        <h3 class="name">IWatch+Earpods Combo offer</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.0</p>
+                            <p class="price">$50.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/headphone.jpg" alt="headphone image">
+                        <h3 class="name">H390 USB computer Headset</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.0</p>
+                            <p class="price">$30.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/drone.png" alt="drone image">
+                        <h3 class="name">Drone Mini Pro X-200</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.0</p>
+                            <p class="price">$100.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--this is the 2nd child of the product-->
+            <div class="product">
+                <div class="title">
+                    <h3>Today's Deal</h3>
+                    <a href="#">View All</a>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper-detail">
+                        <img src="images/camera.jpg" alt="drone image">
+                        <h3 class="name">Canon EOS Rebel SL3</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.5</p>
+                            <p class="price">$50.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/gopro.jpg" alt="headphone image">
+                        <h3 class="name">Go Pro Hero 11 Black</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.0</p>
+                            <p class="price">$30.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/arlo.jpg" alt="drone image">
+                        <h3 class="name">Arlo 150 Pocket Projector</h3>
+                        <div class="ratings-price">
+                            <p class="rating">&#x2605;4.5</p>
+                            <p class="price">$70.00</p>
+                            <button class="plus-button">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--this is the ads section-->
+            <div class="ads-container">
+                <div class="ads-box">
+                    <div class="ads-detail">
+                        <h2>Save Up to 50% off</h2>
+                        <p>On Apple Product</p>
+                        <button class="desktop-only">SHOP NOW</button>
+                    </div>
+                    <img src="images/ipad.png" alt="">
+                    <div class="ads-detail">
+                        <button class="mobile-only">SHOP NOW</button>
+                    </div>
+
+                </div>
+            </div>
+            <!--this is the 3rd child of the product-->
+            <div class="product third-child">
+                <div class="title">
+                    <h3>Best Sellers</h3>
+                    <a href="#">View All</a>
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper-detail">
+                        <img src="images/watch.jpg" alt="drone image">
+                        <h3 class="name">G shock original brand series</h3>
+                        <div class="ratings-price">
+                            <button class="plus-button">view</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/apple watch.jpg" alt="drone image">
+                        <h3 class="name">Apple white airpod series 6</h3>
+                        <div class="ratings-price">
+                            <button class="plus-button">view</button>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-detail">
+                        <img src="images/headset.png" alt="drone image">
+                        <h3 class="name">MAXX Blutooth headset X-10</h3>
+                        <div class="ratings-price">
+                            <button class="plus-button">view</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ads-container">
+                <div class="second-ads">
+                    <h2>ABOUT US</h2>
+                    <p>
+                        <a href="#">HOME</a>
+                        <a href="#">ABOUT/US</a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="about-section">
+                <div class="about vision">
+                    <img src="images/vision.jpg" alt="">
+                    <h2>Our vision</h2>
+                </div>
+                <div class="about work">
+                    <img src="images/what we do.jpg" alt="">
+                    <h2>What We Do</h2>
+                </div>
+                <div class="about history">
+                    <img src="images/history.jpg" alt="">
+                    <h2>Company History</h2>
+                </div>
+            </div>
+            <!-- this is the review section -->
+            <div class="review">
+                <i class="fas fa-quote-left"></i>
+                <p class="title">Happy Customers</p>
+                <div class="comment">
+                    <div class="box">
+                        <span>
+                            OG website is pretty convenient for a buyer like me......
+                        </span>
+                    </div>
+                    <div class="box">
+                        <span>
+                            The best part is the price comparison feature availeble for all other sites like amazon,flip
+                            kart,croma etc...
+                        </span>
+                    </div>
+                    <div class="box">
+                        <span>
+                            Purchased boat earphone, and delivery was quite fast...
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="box">
+                <div class="contact">
+                    <div class="icon">
+                        <svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h48v48H0z" fill="none" />
+                            <path
+                                d="M44 6H4c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h40c2.21 0 3.98-1.79 3.98-4L48 10c0-2.21-1.79-4-4-4zm-28 6c3.31 0 6 2.69 6 6 0 3.32-2.69 6-6 6s-6-2.68-6-6c0-3.31 2.69-6 6-6zm12 24H4v-2c0-4 8-6.2 12-6.2S28 30 28 34v2zm7.7-8h3.28L42 32l-3.99 3.99c-2.61-1.96-4.56-4.75-5.46-7.99-.35-1.28-.55-2.61-.55-4s.2-2.72.56-4c.89-3.24 2.84-6.03 5.46-7.99L42 16l-3.02 4H35.7c-.44 1.25-.7 2.6-.7 4s.25 2.75.7 4z"
+                                fill="#ffffff" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="details">
+                    <h2>Call Center</h2>
+                    <p>+23490363638494</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="contact">
+                    <div class="icon">
+                        <i class="fas fa-shopping-cart"></i>
+
+                    </div>
+                </div>
+                <div class="details">
+                    <h2>Free Delivery</h2>
+                    <p>Free delivery based on you product</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="contact">
+                    <div class="icon">
+                        <i class="fa fa-gift"></i>
+                    </div>
+                </div>
+                <div class="details">
+                    <h2>Gift Cards</h2>
+                    <p>SAVE UP TO 20%</p>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <div class="link-wrapper">
+                <div class="box">
+                    <h4><a href="#">Gets to know us</a></h4>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Service</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                </div>
+
+                <div class="box">
+                    <h4><a href="#">Customer Service</a></h4>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Pricing Plans</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Our Teams</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </div>
+
+                <div class="box">
+                    <h4><a href="#">Quick Links</a></h4>
+                    <li><a href="#">Smartphone</a></li>
+                    <li><a href="#">Headphone</a></li>
+                    <li><a href="#">Laptops & Computers</a></li>
+                    <li><a href="#">Gadgets</a></li>
+                </div>
+
+                <form class="box" action="/subscribe" method="POST">
+                    <h4>Signup to Newsletter</h4>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

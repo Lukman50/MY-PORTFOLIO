@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red !important; */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(90deg, #001a1a 6%, #002e31 100%);
+}
+
+/* first section */
+.firstsection {
+    height: 100%;
+    width: 40%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.firstsection::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("image/nahil-naseer-xljtGZ2-P3Y-unsplash.jpg");
+    background-size: cover;
+    filter: blur(6px);
+
+}
+
+
+/* first section content  */
+
+.content {
+    display: inline-block;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.content h1 {
+    opacity: 0.800;
+    font-size: 20px;
+    line-height: 36px;
+    color: #b48158;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.content h4 {
+    display: inline-block;
+    max-width: 300px;
+    opacity: 0.600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+}
+
+/* first section nav */
+.firstsection nav {}
+
+.firstsection nav ul {
+    display: inline-block;
+    padding-top: 35vh;
+}
+
+.firstsection nav li {
+    padding: 20px;
+    list-style: none;
+
+}
+
+.firstsection nav li a {}
+
+.firstsection nav li a div {
+    width: 30px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 50%;
+
+}
+
+.firstsection nav li a div .div1 {
+    background-color: white;
+}
+
+.firstsection nav li a div div {
+    border: none;
+    background-color: brown;
+    width: 15px;
+    height: 15px;
+    margin-top: 3.6px;
+    margin-left: 3.5px;
+
+}
+/* second section */
+.secondsection {
+    width: 60%;
+}
+
+.secondsection header ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.secondsection header ul li {
+    list-style: none;
+}
+
+.secondsection header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    transition: all 0.5s;
+}
+
+.secondsection header ul li .firstlink {
+    background-color: #b48158;
+    padding: 30px 10px 10px 10px;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+
+.secondsection header ul li a:hover{
+    background-color: #b48158;
+    padding: 30px 10px 10px 10px;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+}
+.secondsection header ul li a:active{
+    background-color: #ffffff;
+    color: #b48158;
+}
+.secondsection .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18vh;
+}
+
+.secondsection .content h1 {
+    font-size: 44px;
+    color: #b48158;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
+}
+
+.secondsection .content h2 {
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: right;
+}
+
+.secondsection .content h4 {
+    opacity: 0.600;
+    max-width: 400px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: right;
+    padding-top: 30px;
+}
+
+.secondsection .content .link {
+    display: flex;
+    align-self: flex-end;
+    gap: 2rem;
+    padding-top: 50px;
+}
+
+.secondsection .content .link a,
+.secondsection .content .link a:first-child:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #b48158;
+    background-color: transparent;
+    font-weight: 400;
+    font-family: "Montserrat";
+    border: 1px solid #b48158;
+    padding: 10px 10px;
+    transition: all 0.5S ease-in-out;
+}
+
+.secondsection .content .link a:first-child,
+.secondsection .content .link a:nth-child(2):hover {
+    background-color: #b48158;
+    font-size: 15px;
+    color: #001a1a;
+}
+
+.secondsection .content .icon {
+    display: flex;
+    align-self: flex-end;
+    gap: 2rem;
+    padding-top: 70px;
+}
+
+.secondsection .content .icon a i {
+    font-size: 20px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+.secondsection .content .icon a i:hover{
+    color: #b48158;
+}
+img{
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    width: 50%;
+}
