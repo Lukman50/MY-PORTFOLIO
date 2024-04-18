@@ -53,7 +53,7 @@ header nav ul a:focus {
     color: white;
     background-color: black;
     border: 1px solid white;
-    border-radius: 25%;
+    border-radius: 15px;
     font-family: "Space Grotesk", sans-serif;
     padding: 5px;
     transition: all 0.4s ease-in-out;
