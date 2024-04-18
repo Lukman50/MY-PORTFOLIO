@@ -28,13 +28,14 @@ header nav .logo {
 header nav ul {
     display: flex; /* Make the links flex items */
     gap: 4rem;
+    z-index: 2;
 }
 
 header nav ul a {
     display: inline;
     font-size: 30px;
     color: white;
-    transition: 0.5s;                
+    transition: 0.3s;                
 }
 
 header nav ul a:hover {
@@ -47,13 +48,13 @@ header nav ul a:focus {
 
 .darkModeButton {
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 10px;
     right: 15px;
     color: white;
     background-color: black;
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 25%;
     font-family: "Space Grotesk", sans-serif;
     padding: 5px;
     transition: all 0.4s ease-in-out;
@@ -66,7 +67,7 @@ body button:hover {
 }
 @media (min-width: 992px) {
    .darkModeButton{
-       padding:20px 10px ;
+       padding:10px 20px ;
        font-size: 30px;
    }
 }
@@ -844,4 +845,4 @@ footer nav a{
 }
 footer nav a:hover{
     color: #f6b000;
-}
+    }
