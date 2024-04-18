@@ -11,7 +11,7 @@ function darkMode() {
         darkModeButton.innerHTML = 'Light';
     } else {
         body.style.backgroundColor = 'black';
-        darkModeButton.innerHTML = 'On';
+        darkModeButton.innerHTML = 'Dark';
     }
 
     // Toggle text color
