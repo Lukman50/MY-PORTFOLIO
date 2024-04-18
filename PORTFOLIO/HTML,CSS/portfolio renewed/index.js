@@ -3,12 +3,12 @@ function darkMode() {
     const darkModeButton = document.getElementById('darkModeButton');
     
     // Set initial state of dark mode button
-    darkModeButton.innerHTML = 'On';
+    darkModeButton.innerHTML = 'Dark';
     
     // Toggle background color of body
     if (body.style.backgroundColor === 'black' || body.style.backgroundColor === '') {
         body.style.backgroundColor = 'white';
-        darkModeButton.innerHTML = 'Off';
+        darkModeButton.innerHTML = 'Light';
     } else {
         body.style.backgroundColor = 'black';
         darkModeButton.innerHTML = 'On';
