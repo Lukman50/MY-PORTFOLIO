@@ -113,10 +113,9 @@ if(randomNumber1 > randomNumber2){
     document.querySelector(".title").innerHTML = " player 2 wins &#129351; ";
 }
 
-
-
-
-
+function reloadPage() {
+            location.reload();
+        }
 
 
 

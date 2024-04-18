@@ -1,23 +1,35 @@
-function fibbonacciGenerator (n) {
-    
-    var output =[]; 
-    if (n === 1){
-        output = [0];
-    }
-    else if (n === 2){
-        output=[0,1];
-    }
-    else {
-        output=[0, 1];
+function generateSequence() {
+    var numberInput = document.getElementById('numberInput').value;
+    var sequenceList = document.getElementById('sequenceList');
 
-        for (var i = 2; i < n; i++){
-            output.push(output[output.length - 2] + output[output.length - 1]);
+    // Clear previous results
+    sequenceList.innerHTML = '';
 
-        }  
-    }
-    return output;
+    // Generate Fibonacci sequence
+    var sequence = fibonacciGenerator(parseInt(numberInput));
+
+    // Display sequence
+    sequence.forEach(function(number) {
+        var listItem = document.createElement('li');
+        listItem.textContent = number;
+        sequenceList.appendChild(listItem);
+    });
 }
 
+function fibonacciGenerator(n) {
+    var output = [];
 
-output = fibbonacciGenerator(4);
-console.log(output)
+    if (n === 1) {
+        output = [0];
+    } else if (n === 2) {
+        output = [0, 1];
+    } else {
+        output = [0, 1];
+
+        for (var i = 2; i < n; i++) {
+            output.push(output[output.length - 2] + output[output.length - 1]);
+        }
+    }
+
+    return output;
+}

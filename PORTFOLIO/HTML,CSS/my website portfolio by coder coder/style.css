@@ -661,7 +661,7 @@ h1 > span {
   padding-block: 16px;
   padding-inline: 24px;
   border: none;
-  border-bottom: 1px solid var(--text);
+  border-bottom: 1px solid var(--text1);
   background: transparent;
   font-size: 1rem;
   line-height: 1.625;

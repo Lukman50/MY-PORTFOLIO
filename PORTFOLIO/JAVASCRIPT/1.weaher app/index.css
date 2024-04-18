@@ -28,7 +28,7 @@ body{
     outline: 0;
     background-color: #ebfffc;
     color: #555;
-    padding: 10px 25px;
+    width: 100%;
     height: 60px;
     border-radius: 30px;
     flex: 1;
@@ -93,3 +93,5 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@

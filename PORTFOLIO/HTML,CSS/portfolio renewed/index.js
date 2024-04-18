@@ -1,15 +1,21 @@
 function darkMode() {
     const body = document.body;
+    const darkModeButton = document.getElementById('darkModeButton');
+    
+    // Set initial state of dark mode button
+    darkModeButton.innerHTML = 'On';
     
     // Toggle background color of body
     if (body.style.backgroundColor === 'black' || body.style.backgroundColor === '') {
         body.style.backgroundColor = 'white';
+        darkModeButton.innerHTML = 'Off';
     } else {
         body.style.backgroundColor = 'black';
+        darkModeButton.innerHTML = 'On';
     }
 
     // Toggle text color
-    const textElements = document.querySelectorAll('.text-color, .skill p, .education-experience p, .education-experience h4');
+    const textElements = document.querySelectorAll('.text-color, .skill p, .education-experience p, .education-experience h4, .projects__tags, .projects__name, a.underline');
     textElements.forEach(text => {
         if (text.style.color === 'white' || text.style.color === '') {
             text.style.color = 'black';
@@ -34,3 +40,6 @@ function darkMode() {
         });
     });
 }
+
+
+ 

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+    rel="stylesheet">
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+  
+  <title>MY PORTFOLIO</title>
+
+</head>
+
+<body>
+  <button id="darkModeButton" class="darkModeButton" onclick="darkMode()">ON</button>
+  <header id="home">
+    <nav>
+      <div class="logo">Lukman</div>
+      <ul>
+        <a href="#"><i class="fa fa-facebook text-color"></i></a>
+        <a href="#"><i class="fa fa-whatsapp text-color"></i></a>
+        <a href="#"><i class="fa fa-twitter text-color"></i></a>
+        <a href="#"><i class="fa fa-instagram text-color"></i></a>
+
+      </ul>
+      
+    </nav>
+  </header>
+   <main>
+    <!--hero section-->
+    <section class="hero">
+      <div class="info">
+        <h1 class="text-color">Nice to meet you! <br> i'm <span>Taiwo Lukman</span></h1>
+        <p class="hero__description text-color">
+          Based in the NIGERIA, I'm a <span>front-end developer </span> <br>
+          passionate about building accessible <span>web apps</span> <br>
+          that users love.
+        </p>
+        <a href="#contact" class="hero__contact underline text-color">Contact me</a>
+
+      </div>
+      <div class="hero__image">
+        <img src="image/image.png" alt="image">
+      </div>
+    </section>    
+    
+       <!--skill-->
+    <div class="skill">
+      <div class="line"></div>
+      <h1 class="header text-color">skills</h1>
+      <div class="skill-outline">
+        <p class="html">html <span>90%</span></p>
+        <p class="css">css <span>80%</span></p>
+        <p class="java-script">java-script <span>70%</span></p>
+        <p class="php">php <span>65%</span></p>
+        <p class="react">react <span>70%</span></p>
+        <p class="jquery">jquery <span>65%</span></p>
+      </div>
+    </div>
+    
+     <!--experienc eand education-->
+    <div class="education-experience" id="about">
+      <div class="header text-color">experienc eand education</div>
+      <div class="wrapper">
+        <div class="wrapper-container">
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-briefcase"></i>
+              </div>
+              <h3>2019-present</h3>
+            </div>
+            <h4>web deeveloper-<span>envato</span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <h3>2013-2018</h3>
+            </div>
+            <h4>ui/ux developer-<span>themeforest</span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <h3>2005-2013</h3>
+            </div>
+            <h4>consultant-<span>videohive</span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+
+
+        </div>
+        <div class="wrapper-container">
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <h3>2018</h3>
+            </div>
+            <h4>engineering degree-<span>oxford university</span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <h3>2019</h3>
+            </div>
+            <h4>master degree-<span>kiev university </span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+
+          <div class="container">
+            <div class="icon-container">
+              <div class="icon">
+                <i class="fa fa-graduation-cap"></i>
+              </div>
+              <h3>2010</h3>
+            </div>
+            <h4>o,level degree-<span>tunis high school</span></h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim et laudantium vel?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!--PROJECT-->
+    <section class="projects">
+        <div class="wrapper projects__wrapper">
+          <div class="projects__grid">
+            <h2 class="projects__headline header-xl">Projects</h2>
+            <a href="#contact" class="projects__contact underline"
+              >View all projects</a
+            >            
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 1.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 1.png"
+                  alt="screenshot of design portfolio website"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Gadget Website</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 2.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 2.png"
+                  alt="screenshot of learning platform website with different courses"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Travel Website Landing Page</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 3.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 3.png"
+                  alt="screenshot of To Do App showing a list of active and complete tasks"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Todo Web App</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 4.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 4.png"
+                  alt="screenshot of video player app with grid of thumbnails of movies and TV shows"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Fibonacci Sequence Generator </h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 5.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 5.png"
+                  alt="screenshot of 4-player memory game with circular tiles that have symbols"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Weather App</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="image/project 6.png"
+                />
+                <img
+                  class="projects__image"
+                  src="image/project 6.png"
+                  alt="grid of thumbnails of famous works of art"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Analog Clock Application</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!--contact-form section-->
+    <div class="contact-form" id="contact">
+      <div class="header text-color">contact</div>
+      <div class="container">
+        
+          <div class="contact-tag">
+            <h1 class="text-color">don't be shy!</h1>
+            <h2 class="text-color">I would love to hear about your project and how I could help. Please fill in the
+              form,
+              and I'll get back to you as soon as possible</h2>
+          </div>
+          
+        <div class="contact">
+          <div class="contact-container text-color">
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+              <div class="text">
+                <p class="text-color">address point</p>
+                <h4 class="text-color">1234 Main St.Anytown, CA 12345</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="contact-container">
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+              <div class="text">
+                <p class="text-color">mail me</p>
+                <h4 class="text-color">taiwolukman508@gmail.com</h4>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="contact-container">
+            <div class="icon">
+              <i class="fa fa-phone"></i>
+              <div class="text">
+                <p class="text-color">call me</p>
+                <h4 class="text-color">09027818678</h4>
+              </div>
+            </div>
+          </div>
+ 
+        </div>
+        
+<form id="form" action="https://formspree.io/f/mbjnqjqa" method="POST" onsubmit="return confirm('Are you sure you want to submit?');">
+  <input type="text" id="name" name="name" placeholder="Name" required>
+  <input type="email" id="email" name="email" placeholder="Email" required>
+  <input type="text" name="subject" id="subject" placeholder="Subject" required>
+  <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+  <button type="submit" id="submit">
+    <h6 class="text-color">Send Message</h6>
+  </button>
+</form>
+
+
+
+
+      </div>
+
+    </div>
+  </main>    
+  <footer>
+  
+  <nav>
+    <p>@2023 Lukman.All right reserved </p>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">contact</a>
+
+  </nav>
+ </footer>
+ 
+ 
+ <script src="index.js"></script>
+</body>
+</html>
