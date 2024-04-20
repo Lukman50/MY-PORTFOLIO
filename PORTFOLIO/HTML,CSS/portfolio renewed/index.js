@@ -12,7 +12,7 @@ function darkMode() {
     }
 
     // Toggle text color
-    const textElements = document.querySelectorAll('.text-color, .skill p, .education-experience p, .education-experience h4, .projects__tags, .projects__name, a.underline');
+    const textElements = document.querySelectorAll('.text-color, .skill p, .education-experience p, .education-experience h4, .projects__tags, .projects__name, a.underline, .contact-form  .contact-container p a,.contact-form  .contact-container h4 a');
     textElements.forEach(text => {
         if (text.style.color === 'white' || text.style.color === '') {
             text.style.color = 'black';
@@ -38,5 +38,9 @@ function darkMode() {
     });
 }
 
-
- 
+document.querySelector('.view-project').addEventListener('click', function(event) {
+    if (window.innerWidth < 992) {
+      event.preventDefault();
+      alert('This is just a landing page and can only be accessed on larger screens.');
+    }
+  });;;
