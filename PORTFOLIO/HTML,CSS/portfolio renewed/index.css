@@ -677,9 +677,18 @@ position: absolute;
 .contact-form  .contact-container h4 {
     font-family: "space grotesk", sans-serif;
     font-size: smaller;
-
     padding-left: 10px;
 
+}
+.contact-form  .contact-container p a,
+.contact-form  .contact-container h4 a{
+    text-decoration: none;
+    color:#fff ;
+    transition: all 0.5s ease-in-out;
+}
+.contact-form  .contact-container p a:hover,
+.contact-form  .contact-container h4 a:hover{
+    color: #f6b000;
 }
 
 /*form*/
@@ -845,4 +854,4 @@ footer nav a{
 }
 footer nav a:hover{
     color: #f6b000;
-    }
+}
